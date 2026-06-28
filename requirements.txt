@@ -1,0 +1,7 @@
+pandas
+langchain-core
+langchain-community
+pypdf
+docx2txt
+openpyxl
+xlrd
