@@ -5,3 +5,5 @@ pypdf
 docx2txt
 openpyxl
 xlrd
+paddlepaddle
+paddleocr
