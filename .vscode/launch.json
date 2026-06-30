@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "OCR 测试 PDF（前2页）",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/ocr_question_parser.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "${workspaceFolder}/data/raw/二年级语文上册24秋《一本同步阅读》单元情境检测卷.pdf",
+                "--output",
+                "${workspaceFolder}/output",
+                "--dpi",
+                "200",
+                "--margin",
+                "20",
+                "--max-pages",
+                "2"
+            ]
+        }
+    ]
+}
